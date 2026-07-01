@@ -24,8 +24,10 @@ to an agent that should not need to re-reason the product from first principles.
 - [Quickstart](quickstart.md)
 - [API reference](api.md)
 - [Examples index](examples.md)
-- [Contributing](contributing.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Contributing (dev guide)](contributing.md)
 - [Release notes](release-notes.md)
+- [Release checklist](release-checklist.md)
 
 ## Decisions
 

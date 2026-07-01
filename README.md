@@ -1,5 +1,8 @@
 # workflow-builder
 
+[![CI](https://github.com/AtinAgnihotri/workflow-builder/actions/workflows/ci.yml/badge.svg)](https://github.com/AtinAgnihotri/workflow-builder/actions/workflows/ci.yml)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+
 Workflow Builder is a planned TypeScript library and builder UI for representing
 business-configurable workflows as plain JSON adjacency lists.
 
@@ -21,7 +24,8 @@ build the first version.
 - [Integration and adapters](docs/05-integration-and-adapters.md)
 - [Docs site and OSS strategy](docs/06-docs-site-and-oss-strategy.md)
 - [Implementation roadmap](docs/07-implementation-roadmap.md)
-- [Contributing](docs/contributing.md)
+- [Contributing](CONTRIBUTING.md)
+- [Contributing (dev guide)](docs/contributing.md)
 - [Release notes](docs/release-notes.md)
 - [Agent orchestration plan](docs/08-agent-orchestration.md)
 - [Portable agent skill spec](docs/09-portable-agent-skill.md)
@@ -76,3 +80,7 @@ The repo includes a portable Markdown skill at
 Cursor, OpenCode, Claude Code, Codex, T3Code-style harnesses, and similar tools
 can ingest it to understand how to validate, edit, and integrate Workflow
 Builder JSON without inventing a DSL or taking over app routing/state.
+
+## License
+
+Licensed under the [Apache License 2.0](LICENSE).

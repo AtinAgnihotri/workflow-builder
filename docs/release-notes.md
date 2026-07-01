@@ -16,9 +16,14 @@ schema may still evolve.
 - Docs: quickstart, API reference, examples index, contributing guide
 - Portable agent skill under `skills/workflow-builder/`
 
-### Planned for 0.4+
+### Added (0.4 prep)
 
-- CI, governance files, and npm publish pipeline (PRP 005)
+- GitHub Actions CI, root governance docs, issue/PR templates
+- Release checklist and Changesets recommendation ([release-checklist.md](release-checklist.md))
+
+### Planned
+
+- npm publish of `@workflow-builder/core`
 - Import/export polish and launch prep
 
 ## Version targets
