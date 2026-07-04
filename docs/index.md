@@ -1,32 +1,24 @@
-# Journeys
+# Journeys Docs
 
-Journeys is a framework-agnostic TypeScript toolkit for creating and evaluating
-workflows represented as JSON adjacency lists. Product and operations teams edit
-rules in a visual builder; your app stores plain JSON and evaluates the next step
-with `@journeys/core`.
+Public documentation for GitHub Pages lives in this folder.
 
-## Getting started
+- **Site home:** [index.html](index.html) — styled hub at
+  [atinagnihotri.github.io/journeys](https://atinagnihotri.github.io/journeys/)
+- **Markdown sources:** linked from the site to
+  [github.com/AtinAgnihotri/journeys/tree/main/docs](https://github.com/AtinAgnihotri/journeys/tree/main/docs)
 
-- [Quickstart](quickstart.md)
-- [API reference](api.md)
-- [Examples](examples.md)
+## Pages in this folder
 
-## Core concepts
+| Page | GitHub |
+| --- | --- |
+| [Quickstart](quickstart.md) | [blob](https://github.com/AtinAgnihotri/journeys/blob/main/docs/quickstart.md) |
+| [API reference](api.md) | [blob](https://github.com/AtinAgnihotri/journeys/blob/main/docs/api.md) |
+| [Examples](examples.md) | [blob](https://github.com/AtinAgnihotri/journeys/blob/main/docs/examples.md) |
+| [Architecture](01-architecture.md) | [blob](https://github.com/AtinAgnihotri/journeys/blob/main/docs/01-architecture.md) |
+| [Workflow JSON schema](02-workflow-json-schema.md) | [blob](https://github.com/AtinAgnihotri/journeys/blob/main/docs/02-workflow-json-schema.md) |
+| [Evaluation engine](03-evaluation-engine.md) | [blob](https://github.com/AtinAgnihotri/journeys/blob/main/docs/03-evaluation-engine.md) |
+| [Builder UI guide](04-builder-ui-spec.md) | [blob](https://github.com/AtinAgnihotri/journeys/blob/main/docs/04-builder-ui-spec.md) |
+| [Integration and adapters](05-integration-and-adapters.md) | [blob](https://github.com/AtinAgnihotri/journeys/blob/main/docs/05-integration-and-adapters.md) |
+| [Release notes](release-notes.md) | [blob](https://github.com/AtinAgnihotri/journeys/blob/main/docs/release-notes.md) |
 
-- [Architecture](01-architecture.md)
-- [Workflow JSON schema](02-workflow-json-schema.md) — source of truth for workflow shape
-- [Evaluation engine](03-evaluation-engine.md)
-- [Builder UI guide](04-builder-ui-spec.md)
-- [Integration and adapters](05-integration-and-adapters.md)
-
-## Project
-
-- [Release notes](release-notes.md)
-- [Contributing](../CONTRIBUTING.md)
-- [License](../LICENSE)
-
-## AI coding tools
-
-Coding agents can load the portable skill from
-[`skills/journeys/SKILL.md`](../skills/journeys/SKILL.md) on GitHub for workflow
-JSON editing and integration guidance.
+Maintainer docs: [`internal/`](../internal/index.md)

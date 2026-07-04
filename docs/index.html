@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta
+      name="description"
+      content="Journeys — product-editable workflows as plain JSON adjacency lists."
+    />
+    <title>Journeys Docs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <aside class="sidebar">
+        <a class="brand" href="./">Journeys</a>
+        <p class="tagline">
+          Framework-agnostic workflow JSON — validate, evaluate, and build
+          product-editable journeys.
+        </p>
+        <nav aria-label="Documentation sections">
+          <div class="nav-group">
+            <p class="nav-label">Getting started</p>
+            <ul class="nav-list">
+              <li>
+                <a
+                  href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/quickstart.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Quickstart</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/api.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >API reference</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/examples.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Examples</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="nav-group">
+            <p class="nav-label">Core concepts</p>
+            <ul class="nav-list">
+              <li>
+                <a
+                  href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/01-architecture.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Architecture</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/02-workflow-json-schema.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Workflow JSON schema</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/03-evaluation-engine.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Evaluation engine</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/04-builder-ui-spec.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Builder UI guide</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/05-integration-and-adapters.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Integration and adapters</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="nav-group">
+            <p class="nav-label">Project</p>
+            <ul class="nav-list">
+              <li>
+                <a
+                  href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/release-notes.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Release notes</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/AtinAgnihotri/journeys/blob/main/CONTRIBUTING.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Contributing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/AtinAgnihotri/journeys/blob/main/LICENSE"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >License</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/AtinAgnihotri/journeys/blob/main/skills/journeys/SKILL.md"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Agent skill</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="sidebar-links">
+          <a
+            href="https://www.npmjs.com/package/@journeys/core"
+            target="_blank"
+            rel="noopener noreferrer"
+            >npm</a
+          >
+          <a
+            href="https://github.com/AtinAgnihotri/journeys"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+          <a
+            href="https://github.com/AtinAgnihotri/journeys/tree/main/examples"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Examples repo</a
+          >
+        </div>
+      </aside>
+
+      <main>
+        <header class="hero">
+          <h1>Documentation</h1>
+          <p>
+            Journeys stores business-configurable branching as plain JSON. Your
+            app maps runtime state into a context object;
+            <code>@journeys/core</code> validates definitions and picks the next
+            node deterministically.
+          </p>
+          <div class="badges">
+            <a
+              class="badge"
+              href="https://www.npmjs.com/package/@journeys/core"
+              target="_blank"
+              rel="noopener noreferrer"
+              >@journeys/core on npm</a
+            >
+            <a
+              class="badge"
+              href="https://github.com/AtinAgnihotri/journeys/blob/main/LICENSE"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Apache-2.0</a
+            >
+          </div>
+          <div class="install">
+            <code id="install-cmd">pnpm add @journeys/core</code>
+            <button type="button" id="copy-install">Copy</button>
+          </div>
+        </header>
+
+        <p class="note">
+          <strong>How to read these docs:</strong> Each page opens on GitHub in
+          the rendered Markdown view on <code>main</code>. Example:
+          <a
+            href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/01-architecture.md"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Architecture</a
+          >.
+        </p>
+
+        <section class="section" id="getting-started">
+          <h2>Getting started</h2>
+          <div class="cards">
+            <a
+              class="card"
+              href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/quickstart.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="card-title">Quickstart</span>
+              <p class="card-desc">
+                Install @journeys/core and evaluate your first workflow.
+              </p>
+              <span class="card-meta">View on GitHub →</span>
+            </a>
+            <a
+              class="card"
+              href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/api.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="card-title">API reference</span>
+              <p class="card-desc">
+                Public exports, types, and runtime helpers.
+              </p>
+              <span class="card-meta">View on GitHub →</span>
+            </a>
+            <a
+              class="card"
+              href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/examples.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="card-title">Examples</span>
+              <p class="card-desc">
+                Vanilla TS, React, routers, Next.js, and edge patterns.
+              </p>
+              <span class="card-meta">View on GitHub →</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="section" id="core-concepts">
+          <h2>Core concepts</h2>
+          <div class="cards">
+            <a
+              class="card"
+              href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/01-architecture.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="card-title">Architecture</span>
+              <p class="card-desc">
+                Package boundaries, runtime flow, and stability rules.
+              </p>
+              <span class="card-meta">View on GitHub →</span>
+            </a>
+            <a
+              class="card"
+              href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/02-workflow-json-schema.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="card-title">Workflow JSON schema</span>
+              <p class="card-desc">
+                Source of truth for workflow shape and validation.
+              </p>
+              <span class="card-meta">View on GitHub →</span>
+            </a>
+            <a
+              class="card"
+              href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/03-evaluation-engine.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="card-title">Evaluation engine</span>
+              <p class="card-desc">
+                Deterministic edge matching and condition operators.
+              </p>
+              <span class="card-meta">View on GitHub →</span>
+            </a>
+            <a
+              class="card"
+              href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/04-builder-ui-spec.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="card-title">Builder UI guide</span>
+              <p class="card-desc">
+                Visual editor responsibilities and export shape.
+              </p>
+              <span class="card-meta">View on GitHub →</span>
+            </a>
+            <a
+              class="card"
+              href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/05-integration-and-adapters.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="card-title">Integration and adapters</span>
+              <p class="card-desc">
+                Host-owned state, routing, and side effects.
+              </p>
+              <span class="card-meta">View on GitHub →</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="section" id="project">
+          <h2>Project</h2>
+          <div class="cards">
+            <a
+              class="card"
+              href="https://github.com/AtinAgnihotri/journeys/blob/main/docs/release-notes.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="card-title">Release notes</span>
+              <p class="card-desc">Version history and npm release notes.</p>
+              <span class="card-meta">View on GitHub →</span>
+            </a>
+            <a
+              class="card"
+              href="https://github.com/AtinAgnihotri/journeys/blob/main/CONTRIBUTING.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="card-title">Contributing</span>
+              <p class="card-desc">
+                How to propose changes and run validation locally.
+              </p>
+              <span class="card-meta">View on GitHub →</span>
+            </a>
+            <a
+              class="card"
+              href="https://github.com/AtinAgnihotri/journeys/blob/main/LICENSE"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="card-title">License</span>
+              <p class="card-desc">Apache License 2.0.</p>
+              <span class="card-meta">View on GitHub →</span>
+            </a>
+            <a
+              class="card"
+              href="https://github.com/AtinAgnihotri/journeys/blob/main/skills/journeys/SKILL.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="card-title">Agent skill</span>
+              <p class="card-desc">
+                Portable Markdown skill for AI coding tools.
+              </p>
+              <span class="card-meta">View on GitHub →</span>
+            </a>
+          </div>
+        </section>
+
+        <footer>
+          <p>
+            Source:
+            <a
+              href="https://github.com/AtinAgnihotri/journeys/tree/main/docs"
+              target="_blank"
+              rel="noopener noreferrer"
+              >AtinAgnihotri/journeys</a
+            >
+            · Docs served from <code>docs/</code> on GitHub Pages
+          </p>
+        </footer>
+      </main>
+    </div>
+    <script src="assets/site.js"></script>
+  </body>
+</html>
