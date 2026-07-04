@@ -7,8 +7,8 @@ from a runtime context object.
 ## Install (monorepo local development)
 
 ```bash
-git clone <repo-url>
-cd journeys  # or your clone directory
+git clone git@github.com:AtinAgnihotri/journeys.git
+cd journeys
 pnpm install
 pnpm --filter @journeys/core build
 ```
