@@ -14,7 +14,7 @@ Use:
 - React
 - TypeScript
 - React Flow or XYFlow for graph editing
-- `@workflow-builder/core` for schema types, validation, and evaluation
+- `@journeys/core` for schema types, validation, and evaluation
 - lightweight local state, with Zustand only if state becomes hard to manage
 
 The chosen stack is for the builder app only. The core package remains framework

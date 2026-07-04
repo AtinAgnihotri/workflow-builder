@@ -1,4 +1,4 @@
-# @workflow-builder/core
+# @journeys/core
 
 Framework-agnostic workflow definition, validation, and evaluation for JSON
 adjacency-list workflows (schema **1.0**).
@@ -6,15 +6,15 @@ adjacency-list workflows (schema **1.0**).
 ## Install
 
 ```bash
-pnpm add @workflow-builder/core
+pnpm add @journeys/core
 # or
-npm install @workflow-builder/core
+npm install @journeys/core
 ```
 
 ## Quick example
 
 ```ts
-import { evaluateNext, validateWorkflow } from "@workflow-builder/core";
+import { evaluateNext, validateWorkflow } from "@journeys/core";
 
 const validation = validateWorkflow(workflow);
 if (!validation.valid) {

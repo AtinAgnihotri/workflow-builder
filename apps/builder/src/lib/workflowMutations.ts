@@ -6,7 +6,7 @@ import type {
   WorkflowDefinition,
   WorkflowEdge,
   WorkflowNode,
-} from "@workflow-builder/core";
+} from "@journeys/core";
 import { NO_VALUE_OPERATORS } from "./operators";
 
 export function slugify(label: string): string {

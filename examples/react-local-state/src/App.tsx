@@ -3,7 +3,7 @@ import {
   advanceWorkflow,
   createWorkflowState,
   inspectWorkflowState,
-} from "@workflow-builder/core";
+} from "@journeys/core";
 import {
   mapLoanAppToWorkflowContext,
   workflow,

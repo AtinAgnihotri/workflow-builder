@@ -8,7 +8,7 @@ Accepted
 
 Workflow Builder integrates with many host environments: vanilla TypeScript,
 React, multiple routers, Next.js, edge workers, and assorted state libraries.
-Framework-specific adapter packages (`@workflow-builder/react`, router wrappers,
+Framework-specific adapter packages (`@journeys/react`, router wrappers,
 etc.) would multiply maintenance and peer-dependency surface area before real
 integration patterns are proven.
 
@@ -25,7 +25,7 @@ Ship **runnable examples first** and defer framework adapter packages until
 repeated boilerplate appears across at least two production-like examples.
 
 Examples must teach one shared integration contract and import
-`@workflow-builder/core` directly.
+`@journeys/core` directly.
 
 ## Consequences
 

@@ -7,7 +7,7 @@ requests at the edge and returns JSON. The local server simulates an edge worker
 
 ```bash
 pnpm install
-pnpm --filter @workflow-builder/core build
+pnpm --filter @journeys/core build
 pnpm --filter example-edge-runtime start
 ```
 

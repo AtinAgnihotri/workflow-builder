@@ -7,6 +7,6 @@
     "start": "node src/server.mjs"
   },
   "dependencies": {
-    "@workflow-builder/core": "workspace:*"
+    "@journeys/core": "workspace:*"
   }
 }

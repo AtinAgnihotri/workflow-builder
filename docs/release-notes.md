@@ -7,7 +7,7 @@ schema may still evolve.
 
 ### Added
 
-- `@workflow-builder/core` with schema 1.0 types, validation, evaluation, runtime
+- `@journeys/core` with schema 1.0 types, validation, evaluation, runtime
   state helpers, and graph inspection utilities
 - Visual builder app (`apps/builder`) with import/export, preview, and condition
   editor
@@ -23,7 +23,7 @@ schema may still evolve.
 
 ### Planned
 
-- npm publish of `@workflow-builder/core`
+- npm publish of `@journeys/core`
 - Import/export polish and launch prep
 
 ## Version targets

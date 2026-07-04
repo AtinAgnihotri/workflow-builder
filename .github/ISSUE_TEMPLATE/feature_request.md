@@ -21,7 +21,7 @@ Other approaches you considered.
 
 ## Scope
 
-- [ ] Core package (`@workflow-builder/core`)
+- [ ] Core package (`@journeys/core`)
 - [ ] Builder UI
 - [ ] Examples / docs
 - [ ] Other

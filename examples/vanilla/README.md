@@ -16,7 +16,7 @@ From the repository root:
 
 ```bash
 pnpm install
-pnpm --filter @workflow-builder/core build
+pnpm --filter @journeys/core build
 pnpm --filter example-vanilla start
 ```
 

@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { evaluateNext } from "@workflow-builder/core";
+import { evaluateNext } from "@journeys/core";
 import { mapContext, workflow } from "../lib/workflow";
 
 const routeByNodeId: Record<string, string> = {

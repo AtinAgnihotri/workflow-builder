@@ -12,7 +12,7 @@ import {
   type WorkflowRuntimeState,
   type WorkflowStateSnapshot,
   validateWorkflow,
-} from "@workflow-builder/core";
+} from "@journeys/core";
 
 export type PreviewComputation =
   | {

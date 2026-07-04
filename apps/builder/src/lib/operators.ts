@@ -1,4 +1,4 @@
-import type { Operator } from "@workflow-builder/core";
+import type { Operator } from "@journeys/core";
 
 export const NO_VALUE_OPERATORS = new Set<Operator>([
   "exists",

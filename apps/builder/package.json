@@ -12,7 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@workflow-builder/core": "workspace:*",
+    "@journeys/core": "workspace:*",
     "@xyflow/react": "^12.6.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"

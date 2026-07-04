@@ -1,4 +1,4 @@
-import { evaluateNext } from "@workflow-builder/core";
+import { evaluateNext } from "@journeys/core";
 import { useNavigate, useLocation } from "react-router-dom";
 import {
   mapLoanAppToWorkflowContext,

@@ -4,7 +4,7 @@ import {
   createWorkflowState,
   inspectWorkflowState,
   type WorkflowDefinition,
-} from "@workflow-builder/core";
+} from "@journeys/core";
 
 type LoanState = {
   loanApplications: Array<{ lvr: number }>;

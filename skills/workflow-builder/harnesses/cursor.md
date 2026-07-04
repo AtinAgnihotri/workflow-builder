@@ -7,7 +7,7 @@ Recommended Cursor prompt:
 
 ```text
 Use the Workflow Builder skill from skills/workflow-builder/SKILL.md. Inspect the
-local code before editing. Preserve schemaVersion "1.0", use @workflow-builder/core
+local code before editing. Preserve schemaVersion "1.0", use @journeys/core
 when available, validate changed workflow JSON, and do not invent an expression
 DSL.
 ```

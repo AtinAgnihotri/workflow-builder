@@ -127,7 +127,7 @@ values came from. It only evaluates keys and values.
 
 ## V1 Success Criteria
 
-- A developer can install `@workflow-builder/core`.
+- A developer can install `@journeys/core`.
 - A developer can define a workflow JSON object with nodes and adjacency-list
   edges.
 - A developer can validate a workflow and get actionable errors.

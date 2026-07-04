@@ -14,7 +14,7 @@ importers:
 
   apps/builder:
     dependencies:
-      '@workflow-builder/core':
+      '@journeys/core':
         specifier: workspace:*
         version: link:../../packages/core
       '@xyflow/react':
@@ -48,13 +48,13 @@ importers:
 
   examples/edge-runtime:
     dependencies:
-      '@workflow-builder/core':
+      '@journeys/core':
         specifier: workspace:*
         version: link:../../packages/core
 
   examples/next:
     dependencies:
-      '@workflow-builder/core':
+      '@journeys/core':
         specifier: workspace:*
         version: link:../../packages/core
       next:
@@ -82,7 +82,7 @@ importers:
 
   examples/react-local-state:
     dependencies:
-      '@workflow-builder/core':
+      '@journeys/core':
         specifier: workspace:*
         version: link:../../packages/core
       react:
@@ -110,7 +110,7 @@ importers:
 
   examples/react-router:
     dependencies:
-      '@workflow-builder/core':
+      '@journeys/core':
         specifier: workspace:*
         version: link:../../packages/core
       react:
@@ -144,7 +144,7 @@ importers:
       '@tanstack/react-router':
         specifier: ^1.121.16
         version: 1.170.16(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
-      '@workflow-builder/core':
+      '@journeys/core':
         specifier: workspace:*
         version: link:../../packages/core
       react:
@@ -172,7 +172,7 @@ importers:
 
   examples/vanilla:
     dependencies:
-      '@workflow-builder/core':
+      '@journeys/core':
         specifier: workspace:*
         version: link:../../packages/core
 

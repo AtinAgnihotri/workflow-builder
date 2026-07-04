@@ -51,7 +51,7 @@ from it.
 
 ## Package Naming
 
-Use `@workflow-builder/core` unless the package name is unavailable during
+Use `@journeys/core` unless the package name is unavailable during
 publication. If unavailable, choose a scoped package controlled by the maintainer
 and update docs consistently.
 
@@ -147,7 +147,7 @@ export function validateWorkflow(_workflow: unknown): ValidationResult {
 - `pnpm typecheck` succeeds.
 - `pnpm test` succeeds with at least one placeholder test using Node's built-in
   test runner.
-- `@workflow-builder/core` exports all planned type names.
+- `@journeys/core` exports all planned type names.
 - No UI framework dependency is present in `packages/core`.
 - `.npmrc` includes the 1-day package age gate.
 - `packages/core` has no runtime dependencies.

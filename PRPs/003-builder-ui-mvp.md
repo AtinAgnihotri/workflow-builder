@@ -19,7 +19,7 @@ Recommended:
 - React
 - TypeScript
 - React Flow or XYFlow
-- `@workflow-builder/core`
+- `@journeys/core`
 
 Do not duplicate schema or evaluator logic in the app.
 
@@ -66,7 +66,7 @@ path first. Then parallelize:
   possible next nodes, evaluator preview, validation panel.
 - UX pass subagent: styling, accessibility labels, layout polish.
 
-All subagents must use `@workflow-builder/core` for schema, validation, and
+All subagents must use `@journeys/core` for schema, validation, and
 evaluation. The lead agent owns final state-shape decisions.
 
 ## Required Behavior

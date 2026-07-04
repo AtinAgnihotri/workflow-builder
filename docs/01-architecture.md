@@ -58,7 +58,7 @@ Avoid:
 ### `apps/builder`
 
 The builder is a visual editor for creating workflow JSON. It imports
-`@workflow-builder/core` instead of duplicating schema logic.
+`@journeys/core` instead of duplicating schema logic.
 
 Responsibilities:
 

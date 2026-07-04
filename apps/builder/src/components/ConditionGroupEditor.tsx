@@ -5,7 +5,7 @@ import type {
   ConditionNode,
   JsonValue,
   Operator,
-} from "@workflow-builder/core";
+} from "@journeys/core";
 import { ALL_OPERATORS } from "../lib/operators";
 import {
   formatConditionValue,

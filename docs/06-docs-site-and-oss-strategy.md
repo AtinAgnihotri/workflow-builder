@@ -47,11 +47,11 @@ OSS
 The eventual quickstart should look like this:
 
 ```bash
-pnpm add @workflow-builder/core
+pnpm add @journeys/core
 ```
 
 ```ts
-import { evaluateNext, validateWorkflow } from "@workflow-builder/core";
+import { evaluateNext, validateWorkflow } from "@journeys/core";
 
 const validation = validateWorkflow(workflow);
 if (!validation.valid) {

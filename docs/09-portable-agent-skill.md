@@ -54,7 +54,7 @@ The actual skill lives at
 
 When activated, the agent should:
 
-1. Check whether `@workflow-builder/core` is installed.
+1. Check whether `@journeys/core` is installed.
 2. If installed, inspect the local package version and exported APIs.
 3. If not installed, suggest installing it or use documented JSON examples.
 4. Read any local workflow JSON files before editing them.

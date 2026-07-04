@@ -96,7 +96,7 @@ node `data` when the workflow JSON is expected to carry destination metadata.
 ## Vanilla TypeScript Example
 
 ```ts
-import { evaluateNext } from "@workflow-builder/core";
+import { evaluateNext } from "@journeys/core";
 
 const result = evaluateNext(workflow, {
   currentNodeId: "start",
@@ -115,7 +115,7 @@ import {
   advanceWorkflow,
   createWorkflowState,
   inspectWorkflowState,
-} from "@workflow-builder/core";
+} from "@journeys/core";
 
 function LoanJourney({ workflow, loanState }) {
   const [workflowState, setWorkflowState] = useState(() =>
@@ -224,9 +224,9 @@ Build an adapter only when all of these are true:
 
 Potential future adapters:
 
-- `@workflow-builder/react`
-- `@workflow-builder/react-router`
-- `@workflow-builder/tanstack-router`
+- `@journeys/react`
+- `@journeys/react-router`
+- `@journeys/tanstack-router`
 
 Avoid adapters for every state library. State mapping is usually application
 specific and better documented with examples.

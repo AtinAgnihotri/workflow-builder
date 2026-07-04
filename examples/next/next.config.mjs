@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ["@workflow-builder/core"],
+  transpilePackages: ["@journeys/core"],
 };
 
 export default nextConfig;

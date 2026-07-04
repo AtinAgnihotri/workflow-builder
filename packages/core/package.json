@@ -1,6 +1,6 @@
 {
-  "name": "@workflow-builder/core",
-  "version": "0.0.0",
+  "name": "@journeys/core",
+  "version": "0.1.0",
   "description": "Framework-agnostic workflow definition, validation, and evaluation primitives.",
   "license": "Apache-2.0",
   "type": "module",

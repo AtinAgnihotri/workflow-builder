@@ -4,7 +4,7 @@ Runnable examples live under [`examples/`](../examples/). Each demonstrates the
 same integration contract:
 
 1. map app state → workflow context
-2. evaluate with `@workflow-builder/core`
+2. evaluate with `@journeys/core`
 3. interpret nodes in host code (screens, routes, handlers)
 
 ## Index
@@ -24,7 +24,7 @@ Shared sample workflow JSON: [examples/shared/loan-workflow.json](../examples/sh
 
 ```bash
 pnpm install
-pnpm --filter @workflow-builder/core build
+pnpm --filter @journeys/core build
 
 # Node examples
 pnpm --filter example-vanilla start
@@ -44,7 +44,7 @@ pnpm --filter example-next dev
 | Workflow JSON, conditions, priorities | Product / ops (via builder) |
 | Context field names exposed to product | Developer (stable mapping) |
 | Routes, screens, API calls | Developer |
-| Validation and evaluation | `@workflow-builder/core` |
+| Validation and evaluation | `@journeys/core` |
 
 ## Adapters
 

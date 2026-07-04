@@ -5,7 +5,7 @@ import {
   inspectWorkflowState,
   parseWorkflowJson,
   validateWorkflow,
-} from "@workflow-builder/core";
+} from "@journeys/core";
 
 const workflowJson = `{
   "schemaVersion": "1.0",

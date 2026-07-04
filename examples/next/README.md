@@ -7,7 +7,7 @@ Next handles navigation after `evaluateNext`.
 
 ```bash
 pnpm install
-pnpm --filter @workflow-builder/core build
+pnpm --filter @journeys/core build
 pnpm --filter example-next dev
 ```
 

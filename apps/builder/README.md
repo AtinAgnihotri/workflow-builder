@@ -1,7 +1,7 @@
 # Workflow Builder UI
 
 Local browser-based visual editor for Workflow Builder JSON. The app imports
-validation and evaluation from `@workflow-builder/core` and does not duplicate
+validation and evaluation from `@journeys/core` and does not duplicate
 schema logic.
 
 ## Run locally
@@ -10,7 +10,7 @@ From the repository root:
 
 ```bash
 pnpm install
-pnpm --filter @workflow-builder/core build
+pnpm --filter @journeys/core build
 pnpm --filter builder dev
 ```
 
@@ -29,7 +29,7 @@ pnpm --filter builder test
 
 - **Vite + React + TypeScript** — app shell and UI
 - **@xyflow/react** — graph canvas for nodes and edges
-- **@workflow-builder/core** — types, validation, parse/serialize, evaluation
+- **@journeys/core** — types, validation, parse/serialize, evaluation
 
 ## Manual QA checklist
 

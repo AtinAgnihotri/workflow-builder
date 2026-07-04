@@ -1,6 +1,6 @@
 # API Reference
 
-Public exports from `@workflow-builder/core`. All functions are framework
+Public exports from `@journeys/core`. All functions are framework
 agnostic and safe to run in Node.js, browsers, and edge runtimes.
 
 ## Types

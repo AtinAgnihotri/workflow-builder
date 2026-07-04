@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { validateWorkflow, serializeWorkflow } from "@workflow-builder/core";
+import { validateWorkflow, serializeWorkflow } from "@journeys/core";
 import { demoWorkflow } from "../demoWorkflow";
 import { computePreview, tryImportWorkflow } from "./preview";
 import { copyWorkflowJson } from "./export";

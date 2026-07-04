@@ -64,7 +64,7 @@ Include:
 
 The skill must instruct agents:
 
-- use `@workflow-builder/core` when available
+- use `@journeys/core` when available
 - validate workflows after editing
 - preserve `schemaVersion: "1.0"`
 - use adjacency-list `edges`
@@ -93,7 +93,7 @@ Create `examples/basic-workflow.json` with:
 
 Create `examples/basic-usage.ts` showing:
 
-- import from `@workflow-builder/core`
+- import from `@journeys/core`
 - validate workflow
 - evaluate from start node
 - handle `matched`, `no_match`, and `invalid_current_node`

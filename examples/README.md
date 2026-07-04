@@ -1,6 +1,6 @@
 # Examples
 
-Integration examples for `@workflow-builder/core`. See [docs/examples.md](../docs/examples.md)
+Integration examples for `@journeys/core`. See [docs/examples.md](../docs/examples.md)
 for the full index and run commands.
 
 | Directory | Command |
@@ -12,4 +12,4 @@ for the full index and run commands.
 | [next](next/) | `pnpm --filter example-next dev` |
 | [edge-runtime](edge-runtime/) | `pnpm --filter example-edge-runtime start` |
 
-Build core first: `pnpm --filter @workflow-builder/core build`.
+Build core first: `pnpm --filter @journeys/core build`.

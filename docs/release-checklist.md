@@ -1,6 +1,6 @@
 # Release Checklist
 
-Use this checklist before publishing `@workflow-builder/core` to npm. Manual
+Use this checklist before publishing `@journeys/core` to npm. Manual
 publish is recommended for the first release; automate only after contents and
 exports are verified.
 
@@ -19,8 +19,10 @@ Confirm `pnpm validate` passes on the release commit.
 From `packages/core`:
 
 ```bash
-npm pack --dry-run
+pnpm --filter @journeys/core pack --json
 ```
+
+Or from `packages/core`, `pnpm pack --json` (lists files; writes a `.tgz` you can delete after inspection).
 
 Verify the tarball includes **only** expected files:
 
@@ -40,7 +42,7 @@ No source files, tests, or monorepo-only paths should appear.
 
 ## Exports and runtime
 
-- Confirm ESM imports work: `import { validateWorkflow } from "@workflow-builder/core"`.
+- Confirm ESM imports work: `import { validateWorkflow } from "@journeys/core"`.
 - Confirm types resolve from `"types"` and `"exports"` in `package.json`.
 - Smoke-test in at least one example app after `pnpm pack` and local install.
 
@@ -56,7 +58,7 @@ When ready for ongoing releases:
 
 1. Add `@changesets/cli` as a dev dependency.
 2. Run `pnpm changeset init` and configure `.changeset/config.json` for the
-   monorepo (publish `@workflow-builder/core`; keep private workspace packages
+   monorepo (publish `@journeys/core`; keep private workspace packages
    internal).
 3. Contributors add changesets in PRs; maintainers run `pnpm changeset version`
    and `pnpm changeset publish` locally after review.
@@ -67,10 +69,8 @@ and tag in git.
 ## Publish
 
 ```bash
-cd packages/core
-pnpm build
-npm pack          # final inspection
-npm publish --access public
+pnpm --filter @journeys/core publish --dry-run --access public
+pnpm --filter @journeys/core publish --access public
 ```
 
 After publish:

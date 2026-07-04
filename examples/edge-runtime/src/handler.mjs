@@ -1,7 +1,7 @@
 import { readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import { evaluateNext, validateWorkflow } from "@workflow-builder/core";
+import { evaluateNext, validateWorkflow } from "@journeys/core";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const workflow = JSON.parse(

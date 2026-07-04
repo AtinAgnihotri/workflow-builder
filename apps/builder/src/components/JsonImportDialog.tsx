@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { ValidationIssue } from "@workflow-builder/core";
+import type { ValidationIssue } from "@journeys/core";
 import { tryImportWorkflow } from "../lib/preview";
 import { useBuilder } from "../state/BuilderContext";
 

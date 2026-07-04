@@ -40,7 +40,7 @@ What actually happened (include error messages or validation issues if any).
 
 ## Environment
 
-- `@workflow-builder/core` version or commit SHA:
+- `@journeys/core` version or commit SHA:
 - Node.js version:
 - Browser (if builder UI):
 

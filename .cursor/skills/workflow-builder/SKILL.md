@@ -3,7 +3,7 @@ name: workflow-builder
 description: >-
   Loads Workflow Builder monorepo context for implementation, validation, and
   integration tasks. Use when working in this repository, implementing PRPs,
-  editing @workflow-builder/core, workflow JSON, the builder UI, or when the
+  editing @journeys/core, workflow JSON, the builder UI, or when the
   user mentions Workflow Builder, adjacency-list workflows, or PRP checkpoints.
 ---
 
@@ -38,7 +38,7 @@ Read only what the task needs. Default order:
 ## Monorepo Layout
 
 ```text
-packages/core   — @workflow-builder/core (types, validation, evaluation)
+packages/core   — @journeys/core (types, validation, evaluation)
 apps/builder    — visual editor (imports core)
 examples/       — integration contracts
 docs/           — product and architecture specs

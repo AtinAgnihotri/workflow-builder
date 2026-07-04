@@ -7,7 +7,7 @@ Includes a host-defined fallback route when no edge matches.
 
 ```bash
 pnpm install
-pnpm --filter @workflow-builder/core build
+pnpm --filter @journeys/core build
 pnpm --filter example-react-router dev
 ```
 

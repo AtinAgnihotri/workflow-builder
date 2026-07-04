@@ -1,5 +1,5 @@
-import type { WorkflowDefinition, WorkflowRuntimeState } from "@workflow-builder/core";
-import { createWorkflowState } from "@workflow-builder/core";
+import type { WorkflowDefinition, WorkflowRuntimeState } from "@journeys/core";
+import { createWorkflowState } from "@journeys/core";
 import { demoWorkflow, defaultSampleContextJson } from "../demoWorkflow";
 import { findEdge } from "../lib/workflowMutations";
 

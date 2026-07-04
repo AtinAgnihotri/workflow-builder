@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { validateWorkflow } from "../dist/index.js";
 
-test("@workflow-builder/core exports implemented public APIs", () => {
+test("@journeys/core exports implemented public APIs", () => {
   const result = validateWorkflow({
     schemaVersion: "1.0",
     id: "demo",

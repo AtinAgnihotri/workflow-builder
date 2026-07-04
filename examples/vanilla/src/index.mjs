@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import {
   evaluateNext,
   validateWorkflow,
-} from "@workflow-builder/core";
+} from "@journeys/core";
 import { describeNode } from "./interpretNode.mjs";
 import { mapLoanAppToWorkflowContext } from "./mapContext.mjs";
 

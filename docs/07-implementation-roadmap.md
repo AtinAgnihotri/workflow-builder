@@ -21,7 +21,7 @@ Do not start the builder before the core package has tests.
 
 Deliver:
 
-- `@workflow-builder/core`
+- `@journeys/core`
 - exported types
 - validator
 - parser and serializer

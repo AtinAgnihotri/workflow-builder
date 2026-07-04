@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@tanstack/react-router": "^1.121.16",
-    "@workflow-builder/core": "workspace:*",
+    "@journeys/core": "workspace:*",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },

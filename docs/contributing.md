@@ -15,7 +15,7 @@ pnpm validate
 ## Project structure
 
 ```text
-packages/core    — @workflow-builder/core
+packages/core    — @journeys/core
 apps/builder     — visual editor
 examples/        — integration examples
 docs/            — product and API docs
@@ -48,7 +48,7 @@ Include:
 - workflow JSON (if applicable)
 - sample context object
 - expected vs actual evaluation result
-- `@workflow-builder/core` version or commit SHA
+- `@journeys/core` version or commit SHA
 
 ## License
 

@@ -7,7 +7,7 @@ navigation idioms after `evaluateNext`.
 
 ```bash
 pnpm install
-pnpm --filter @workflow-builder/core build
+pnpm --filter @journeys/core build
 pnpm --filter example-tanstack-router dev
 ```
 

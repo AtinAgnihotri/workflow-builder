@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- `@workflow-builder/core` — schema 1.0 types, validation, evaluation, runtime
+- `@journeys/core` — schema 1.0 types, validation, evaluation, runtime
   state helpers, and graph utilities (47 tests)
 - Visual builder app (`apps/builder`) with import/export, preview, and condition
   editor
@@ -22,7 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Planned
 
-- npm publish of `@workflow-builder/core` (manual first publish)
+- npm publish of `@journeys/core` (manual first publish)
 - Changesets-based versioning once publishing begins
 
 ## Version history (targets)

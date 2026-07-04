@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { validateWorkflow } from "@workflow-builder/core";
+import { validateWorkflow } from "@journeys/core";
 import { useBuilder } from "../state/BuilderContext";
 
 type BuilderToolbarProps = {

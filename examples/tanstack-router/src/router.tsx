@@ -5,7 +5,7 @@ import {
   Outlet,
   useNavigate,
 } from "@tanstack/react-router";
-import { evaluateNext } from "@workflow-builder/core";
+import { evaluateNext } from "@journeys/core";
 import { mapContext, routeForNode, workflow } from "./workflow";
 
 const rootRoute = createRootRoute({

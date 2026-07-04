@@ -381,7 +381,7 @@ Core evaluator tests must cover:
 ## Example Runtime Integration
 
 ```ts
-import { evaluateNext } from "@workflow-builder/core";
+import { evaluateNext } from "@journeys/core";
 
 function goToNextStep(workflow, currentNodeId, appState, navigate) {
   const context = {

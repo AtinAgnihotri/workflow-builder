@@ -12,7 +12,7 @@ import {
 } from "@xyflow/react";
 import "@xyflow/react/dist/style.css";
 import { useCallback, useMemo } from "react";
-import type { WorkflowDefinition } from "@workflow-builder/core";
+import type { WorkflowDefinition } from "@journeys/core";
 import {
   addEdge as addWorkflowEdge,
   getNodePosition,

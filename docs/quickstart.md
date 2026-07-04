@@ -10,19 +10,19 @@ from a runtime context object.
 git clone <repo-url>
 cd workflow-builder
 pnpm install
-pnpm --filter @workflow-builder/core build
+pnpm --filter @journeys/core build
 ```
 
 Published install (future):
 
 ```bash
-pnpm add @workflow-builder/core
+pnpm add @journeys/core
 ```
 
 ## Minimal usage
 
 ```ts
-import { evaluateNext, validateWorkflow } from "@workflow-builder/core";
+import { evaluateNext, validateWorkflow } from "@journeys/core";
 import workflow from "./workflow.json";
 
 const validation = validateWorkflow(workflow);
@@ -61,7 +61,7 @@ import {
   advanceWorkflow,
   createWorkflowState,
   inspectWorkflowState,
-} from "@workflow-builder/core";
+} from "@journeys/core";
 
 const state = createWorkflowState(workflow);
 const snapshot = inspectWorkflowState(workflow, {
@@ -78,7 +78,7 @@ if (advanced.status === "advanced") {
 ## Visual builder
 
 ```bash
-pnpm --filter @workflow-builder/core build
+pnpm --filter @journeys/core build
 pnpm --filter builder dev
 ```
 

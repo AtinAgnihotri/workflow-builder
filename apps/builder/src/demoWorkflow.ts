@@ -1,4 +1,4 @@
-import type { WorkflowDefinition } from "@workflow-builder/core";
+import type { WorkflowDefinition } from "@journeys/core";
 
 export const demoWorkflow: WorkflowDefinition = {
   schemaVersion: "1.0",

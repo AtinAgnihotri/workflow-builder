@@ -21,7 +21,7 @@ Use this skill when the task mentions:
 - product-editable journeys
 - conditional routing or branching
 - visual workflow builder output
-- `@workflow-builder/core`
+- `@journeys/core`
 
 ## Mental Model
 
@@ -159,7 +159,7 @@ import {
   inspectWorkflowState,
   parseWorkflowJson,
   validateWorkflow,
-} from "@workflow-builder/core";
+} from "@journeys/core";
 
 const validation = validateWorkflow(workflow);
 if (!validation.valid) {
@@ -268,7 +268,7 @@ Do not:
 
 ## If The Package Is Not Installed
 
-If `@workflow-builder/core` is not installed:
+If `@journeys/core` is not installed:
 
 1. do not guess hidden APIs
 2. use the documented JSON shape

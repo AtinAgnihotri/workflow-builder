@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { JsonObject, WorkflowNode } from "@workflow-builder/core";
+import type { JsonObject, WorkflowNode } from "@journeys/core";
 import { NODE_TYPES } from "../lib/operators";
 import { addNode, deleteNode, updateNode } from "../lib/workflowMutations";
 import { useBuilder } from "../state/BuilderContext";

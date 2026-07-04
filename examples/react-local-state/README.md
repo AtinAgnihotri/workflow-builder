@@ -7,7 +7,7 @@ React app that stores workflow position in component state and advances with
 
 ```bash
 pnpm install
-pnpm --filter @workflow-builder/core build
+pnpm --filter @journeys/core build
 pnpm --filter example-react-local-state dev
 ```
 
