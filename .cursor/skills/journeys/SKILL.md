@@ -20,10 +20,10 @@ and evaluates transitions; host apps own state, routing, and side effects.
 Read only what the task needs. Default order:
 
 1. [README.md](../../README.md) — navigation and current status
-2. [docs/index.md](../../docs/index.md) — doc reading order
+2. [docs/index.md](../../docs/index.md) — public doc reading order
 3. Relevant PRP under [PRPs/](../../PRPs/) for the active implementation step
 4. [skills/journeys/SKILL.md](../../skills/journeys/SKILL.md) — JSON schema, operators, integration patterns
-5. [docs/08-agent-orchestration.md](../../docs/08-agent-orchestration.md) — when using subagents
+5. [internal/08-agent-orchestration.md](../../internal/08-agent-orchestration.md) — when using subagents
 
 ### By task type
 
@@ -32,7 +32,7 @@ Read only what the task needs. Default order:
 | Core types / validation / evaluator | `docs/02-workflow-json-schema.md`, `docs/03-evaluation-engine.md`, active PRP |
 | Builder UI | `docs/04-builder-ui-spec.md`, PRP 003 |
 | Examples / adapters | `docs/05-integration-and-adapters.md`, PRP 004 |
-| Release / CI | `docs/06-docs-site-and-oss-strategy.md`, PRP 005 |
+| Release / publish | `internal/release-checklist.md`, `scripts/release.sh`, PRP 005 |
 | Editing workflow JSON | `skills/journeys/SKILL.md`, `docs/02-workflow-json-schema.md` |
 
 ## Monorepo Layout
@@ -41,7 +41,8 @@ Read only what the task needs. Default order:
 packages/core   — @journeys/core (types, validation, evaluation)
 apps/builder    — visual editor (imports core)
 examples/       — integration contracts
-docs/           — product and architecture specs
+docs/           — public docs (GitHub Pages)
+internal/       — maintainer, agent, release, ADR docs
 PRPs/           — step-by-step implementation prompts
 skills/         — portable agent skill (OSS distribution)
 ```
@@ -55,7 +56,7 @@ skills/         — portable agent skill (OSS distribution)
 5. **Minimal dependencies** — TypeScript + Node built-ins first; justify every npm add;
    respect `.npmrc` 1-day release age gate (`minimum-release-age=1440`).
 6. **One lead for types** — only one agent edits `packages/core/src/types.ts` at a time.
-7. **Commit at PRP checkpoints** — validate (`pnpm install`, `build`, `typecheck`, `test`) before committing scaffold or feature work.
+7. **Commit at PRP checkpoints** — validate (`pnpm validate`) before committing scaffold or feature work.
 
 ## Commands
 
@@ -63,6 +64,7 @@ From repo root:
 
 ```bash
 pnpm install
+pnpm validate
 pnpm build
 pnpm typecheck
 pnpm test
@@ -78,4 +80,4 @@ PRP 001 = scaffold; PRP 002 = validator + evaluator; PRP 003 = builder UI; etc.
 - Workflow JSON and integration details: [skills/journeys/SKILL.md](../../skills/journeys/SKILL.md)
 - Example workflow: [skills/journeys/examples/basic-workflow.json](../../skills/journeys/examples/basic-workflow.json)
 - Architecture: [docs/01-architecture.md](../../docs/01-architecture.md)
-- Implementation roadmap: [docs/07-implementation-roadmap.md](../../docs/07-implementation-roadmap.md)
+- Maintainer docs: [internal/index.md](../../internal/index.md)

@@ -8,9 +8,9 @@ does not implement the evaluator yet.
 ## Context To Read First
 
 - `README.md`
-- `docs/00-product-brief.md`
+- `internal/00-product-brief.md`
 - `docs/01-architecture.md`
-- `docs/07-implementation-roadmap.md`
+- `internal/07-implementation-roadmap.md`
 
 ## Target Structure
 

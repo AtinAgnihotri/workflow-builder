@@ -1,0 +1,4 @@
+# GitHub Pages: Settings → Pages → Deploy from branch → main → /docs
+# Pure Markdown — disable Jekyll processing for predictable rendering.
+theme: jekyll-theme-minimal
+markdown: GFM

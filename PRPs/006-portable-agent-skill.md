@@ -9,11 +9,11 @@ other harnesses that can pull in Markdown instructions.
 
 ## Context To Read First
 
-- `docs/09-portable-agent-skill.md`
+- `internal/09-portable-agent-skill.md`
 - `docs/02-workflow-json-schema.md`
 - `docs/03-evaluation-engine.md`
 - `docs/05-integration-and-adapters.md`
-- `docs/08-agent-orchestration.md`
+- `internal/08-agent-orchestration.md`
 
 ## Parallelization
 
@@ -118,7 +118,7 @@ fake commands for harnesses.
 - Skill files exist.
 - Skill examples match schema docs.
 - README links to the skill.
-- `docs/09-portable-agent-skill.md` links to the actual skill path.
+- `internal/09-portable-agent-skill.md` links to the actual skill path.
 - Skill anti-patterns include no DSL and no code execution.
 - The skill is useful as plain Markdown even without harness-specific support.
 - skill files are committed separately from runtime implementation unless they

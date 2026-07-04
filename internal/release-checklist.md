@@ -48,7 +48,7 @@ No source files, tests, or monorepo-only paths should appear.
 
 ## Documentation and governance
 
-- Update [CHANGELOG.md](../CHANGELOG.md) and [docs/release-notes.md](release-notes.md).
+- Update [CHANGELOG.md](../CHANGELOG.md) and [docs/release-notes.md](../docs/release-notes.md).
 - Confirm root and package license fields are `Apache-2.0`.
 - Confirm [SECURITY.md](../SECURITY.md) contact path is current.
 
@@ -64,7 +64,8 @@ When ready for ongoing releases:
    and `pnpm changeset publish` locally after review.
 
 Until Changesets is wired up, bump `packages/core/package.json` version manually
-and tag in git.
+and tag in git. For a guided local flow, use `./scripts/release.sh <version>` from
+the repo root (runs validate, bumps version, commits, tags, and publishes).
 
 ## Publish
 

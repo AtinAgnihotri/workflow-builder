@@ -14,7 +14,7 @@ pnpm validate
 `pnpm validate` runs install (frozen lockfile), typecheck, test, and build — the same
 local validation gate used before releases.
 
-See [docs/contributing.md](docs/contributing.md) for project structure, change
+See [internal/contributing.md](internal/contributing.md) for project structure, change
 guidelines, and issue reporting details.
 
 ## How to contribute
@@ -37,7 +37,7 @@ guidelines, and issue reporting details.
 ## Governance
 
 - **Roadmap:** maintainer decides priorities; public roadmap lives in GitHub
-  issues, discussions, and [docs/07-implementation-roadmap.md](docs/07-implementation-roadmap.md).
+  issues, discussions, and [internal/07-implementation-roadmap.md](internal/07-implementation-roadmap.md).
 - **Reviews:** PRs that change runtime behavior should include tests.
 - **Schema:** treat `docs/02-workflow-json-schema.md` as the source of truth.
 - **Dependencies:** keep the core package minimal; justify new npm packages and
@@ -54,8 +54,8 @@ bumps and changelog entries once publishing begins:
 1. Add a changeset when your PR includes user-facing changes:
    `pnpm changeset` (after `@changesets/cli` is added to the repo).
 2. Merge PRs; maintainers run the release workflow or publish manually.
-3. Follow the [release checklist](docs/release-checklist.md) before the first npm
-   publish.
+3. Follow the [release checklist](internal/release-checklist.md) or run
+   `./scripts/release.sh <version>` before publishing to npm.
 
 Manual publish is preferred until package contents and exports are verified via
 `pnpm validate` and `npm pack --dry-run`.

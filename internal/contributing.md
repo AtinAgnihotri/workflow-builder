@@ -18,7 +18,8 @@ pnpm validate
 packages/core    — @journeys/core
 apps/builder     — visual editor
 examples/        — integration examples
-docs/            — product and API docs
+docs/            — public docs (GitHub Pages)
+internal/        — maintainer, agent, and release docs
 PRPs/            — implementation prompts
 ```
 

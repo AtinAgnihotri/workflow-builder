@@ -2,7 +2,8 @@
 
 ## Docs Site
 
-Start with GitHub Pages served from `docs/`.
+Start with GitHub Pages served from `docs/`. Maintainer and agent material lives in
+`internal/` and is not published to Pages.
 
 Required pages:
 

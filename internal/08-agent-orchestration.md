@@ -112,8 +112,8 @@ Use this prompt in Cursor or another harness with subagents:
 ```text
 You are the lead implementation agent for Journeys.
 
-First, read README.md, docs/*.md, and PRPs/*.md. Keep docs/02-workflow-json-schema.md
-as the source of truth for schema semantics. Keep docs/08-agent-orchestration.md
+First, read README.md, docs/*.md, internal/*.md, and PRPs/*.md. Keep docs/02-workflow-json-schema.md
+as the source of truth for schema semantics. Keep internal/08-agent-orchestration.md
 as the source of truth for delegation.
 
 Implement PRPs in numeric order. For each PRP:

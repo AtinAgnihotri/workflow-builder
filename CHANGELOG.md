@@ -46,5 +46,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 | 1.0.0 | Stable schema V1 compatibility promise |
 
 See [docs/release-notes.md](docs/release-notes.md) and
-[docs/release-checklist.md](docs/release-checklist.md) for release process
+[internal/release-checklist.md](internal/release-checklist.md) for release process
 details.

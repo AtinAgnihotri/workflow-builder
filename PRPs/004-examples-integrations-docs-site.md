@@ -8,8 +8,8 @@ Journeys in real applications.
 ## Context To Read First
 
 - `docs/05-integration-and-adapters.md`
-- `docs/06-docs-site-and-oss-strategy.md`
-- `docs/07-implementation-roadmap.md`
+- `internal/06-docs-site-and-oss-strategy.md`
+- `internal/07-implementation-roadmap.md`
 
 ## Examples To Build
 
@@ -103,7 +103,7 @@ Add pages:
 docs/quickstart.md
 docs/api.md
 docs/examples.md
-docs/contributing.md
+internal/contributing.md
 docs/release-notes.md
 ```
 
@@ -114,7 +114,7 @@ Update `docs/index.md` to link to them.
 Add a short document:
 
 ```text
-docs/adr/001-examples-before-adapters.md
+internal/adr/001-examples-before-adapters.md
 ```
 
 Record:

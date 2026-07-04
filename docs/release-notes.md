@@ -19,7 +19,7 @@ schema may still evolve.
 ### Added (0.4 prep)
 
 - Local `pnpm validate` script, root governance docs, issue/PR templates
-- Release checklist and Changesets recommendation ([release-checklist.md](release-checklist.md))
+- Release checklist and Changesets recommendation ([release checklist](../internal/release-checklist.md))
 
 ### Planned
 
@@ -48,4 +48,4 @@ pnpm add @journeys/core
 | 0.3.0 | Examples and docs site |
 | 1.0.0 | Stable schema V1 compatibility promise |
 
-See [implementation roadmap](07-implementation-roadmap.md) for full sequencing.
+See [implementation roadmap](../internal/07-implementation-roadmap.md) for full sequencing.

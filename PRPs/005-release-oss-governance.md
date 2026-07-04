@@ -6,8 +6,8 @@ Prepare the project for open source release and npm publishing.
 
 ## Context To Read First
 
-- `docs/06-docs-site-and-oss-strategy.md`
-- `docs/07-implementation-roadmap.md`
+- `internal/06-docs-site-and-oss-strategy.md`
+- `internal/07-implementation-roadmap.md`
 
 ## Files To Add
 
