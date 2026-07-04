@@ -1,6 +1,6 @@
 # Quickstart
 
-Workflow Builder evaluates product-editable journeys stored as plain JSON
+Journeys evaluates product-editable journeys stored as plain JSON
 adjacency lists. The core package validates workflows and picks the next node
 from a runtime context object.
 
@@ -8,12 +8,12 @@ from a runtime context object.
 
 ```bash
 git clone <repo-url>
-cd workflow-builder
+cd journeys  # or your clone directory
 pnpm install
 pnpm --filter @journeys/core build
 ```
 
-Published install (future):
+## Install from npm
 
 ```bash
 pnpm add @journeys/core

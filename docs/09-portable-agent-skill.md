@@ -3,7 +3,7 @@
 ## Goal
 
 Create a portable skill that agentic coding harnesses can pull into context so
-their agents understand Workflow Builder and can use it correctly.
+their agents understand Journeys and can use it correctly.
 
 Target harnesses include:
 
@@ -18,7 +18,7 @@ Target harnesses include:
 
 The skill should teach an agent:
 
-- what Workflow Builder is
+- what Journeys is
 - the workflow JSON adjacency-list shape
 - how nodes, edges, priorities, and condition groups work
 - how to validate workflow JSON
@@ -34,21 +34,21 @@ Use a Markdown-first skill so any harness can ingest it.
 Skill files:
 
 ```text
-skills/workflow-builder/SKILL.md
-skills/workflow-builder/examples/basic-workflow.json
-skills/workflow-builder/examples/basic-usage.ts
-skills/workflow-builder/examples/react-usage.tsx
-skills/workflow-builder/harnesses/cursor.md
-skills/workflow-builder/harnesses/claude-code.md
-skills/workflow-builder/harnesses/codex.md
-skills/workflow-builder/harnesses/opencode.md
+skills/journeys/SKILL.md
+skills/journeys/examples/basic-workflow.json
+skills/journeys/examples/basic-usage.ts
+skills/journeys/examples/react-usage.tsx
+skills/journeys/harnesses/cursor.md
+skills/journeys/harnesses/claude-code.md
+skills/journeys/harnesses/codex.md
+skills/journeys/harnesses/opencode.md
 ```
 
 The canonical file is `SKILL.md`. Harness-specific files should be thin notes,
 not separate sources of truth.
 
 The actual skill lives at
-[`../skills/workflow-builder/SKILL.md`](../skills/workflow-builder/SKILL.md).
+[`../skills/journeys/SKILL.md`](../skills/journeys/SKILL.md).
 
 ## Skill Behavior
 
@@ -69,8 +69,8 @@ The skill must warn agents not to:
 - use `eval`
 - use `new Function`
 - create expression strings like `"age > 29"`
-- assume Workflow Builder owns routing
-- assume Workflow Builder owns app state
+- assume Journeys owns routing
+- assume Journeys owns app state
 - add React dependencies to the core package
 - mutate workflow JSON into a graph-library-only shape
 - use nested dot paths unless the schema has explicitly added path arrays
@@ -85,7 +85,7 @@ Developer-owned:
 - decide what node IDs mean
 - perform navigation/rendering/actions
 
-Workflow Builder-owned:
+Journeys-owned:
 - JSON schema
 - validation
 - condition evaluation
@@ -96,7 +96,7 @@ Workflow Builder-owned:
 ## Example Skill Activation Prompt
 
 ```text
-Use the Workflow Builder skill. Inspect this app's state shape, propose a
+Use the Journeys skill. Inspect this app's state shape, propose a
 workflow context mapping, create or update workflow JSON, and wire evaluation
 without changing routing architecture. Validate the workflow before finishing.
 ```
@@ -106,7 +106,7 @@ without changing routing architecture. Validate the workflow before finishing.
 Start with a repo folder:
 
 ```text
-skills/workflow-builder
+skills/journeys
 ```
 
 Later options:
@@ -118,10 +118,10 @@ Later options:
 
 ## Versioning
 
-The skill should state which Workflow Builder schema version it supports:
+The skill should state which Journeys schema version it supports:
 
 ```text
-Supported Workflow Builder schema: 1.0
+Supported Journeys schema: 1.0
 ```
 
 When schema changes, update:
@@ -133,7 +133,7 @@ When schema changes, update:
 
 ## Acceptance Criteria
 
-- `skills/workflow-builder/SKILL.md` exists.
+- `skills/journeys/SKILL.md` exists.
 - The skill can be understood as plain Markdown.
 - The skill includes schema summary, examples, safe usage rules, and anti-patterns.
 - Harness-specific notes exist where useful.

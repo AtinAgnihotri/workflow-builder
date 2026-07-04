@@ -3,7 +3,7 @@
 ## Recommended Repository Shape
 
 ```text
-workflow-builder/
+journeys/
   packages/
     core/
       src/

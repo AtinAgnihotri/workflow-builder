@@ -2,7 +2,7 @@
 
 ## One-Sentence Summary
 
-Workflow Builder lets teams model product journeys, rules engines, and other
+Journeys lets teams model product journeys, rules engines, and other
 decision flows as plain JSON adjacency lists, then edit those flows in a visual
 UI without requiring product users to write code.
 

@@ -127,7 +127,7 @@ Example copy:
 ```md
 ## Support
 
-If Workflow Builder saves you time, sponsorship helps fund maintenance,
+If Journeys saves you time, sponsorship helps fund maintenance,
 examples, and documentation. Adoption and feedback are also valuable.
 ```
 
@@ -183,7 +183,7 @@ Potential channels:
 - relevant newsletters after the repo has examples and screenshots
 
 Avoid overclaiming. This is not a replacement for every BPMN, rules engine, or
-feature flag platform. It is a lightweight JSON workflow builder for application
+feature flag platform. It is a lightweight JSON journey library for application
 journeys and business-configurable branching.
 
 ## Positioning
@@ -200,7 +200,7 @@ Avoid phrases like:
 
 - "Zapier alternative"
 - "full workflow automation platform"
-- "AI workflow builder"
+- "AI journey builder"
 - "enterprise rules engine replacement"
 
 ## Repo Badges

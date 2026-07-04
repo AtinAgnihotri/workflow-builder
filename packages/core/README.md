@@ -1,4 +1,4 @@
-# @journeys/core
+# Journeys (`@journeys/core`)
 
 Framework-agnostic workflow definition, validation, and evaluation for JSON
 adjacency-list workflows (schema **1.0**).

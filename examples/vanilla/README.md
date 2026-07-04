@@ -1,6 +1,6 @@
 # Vanilla TypeScript Example
 
-Shows the smallest Workflow Builder integration: validate workflow JSON, map app
+Shows the smallest Journeys integration: validate workflow JSON, map app
 state to context, evaluate the next node, and interpret the result in host code.
 
 ## Who owns what

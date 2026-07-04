@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping improve Workflow Builder. This project is maintainer-led
+Thank you for helping improve Journeys. This project is maintainer-led
 with a public roadmap in docs and PRPs.
 
 ## Development setup

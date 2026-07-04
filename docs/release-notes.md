@@ -14,7 +14,7 @@ schema may still evolve.
 - Runnable examples: vanilla, React local state, React Router, TanStack Router,
   Next.js client, edge runtime handler
 - Docs: quickstart, API reference, examples index, contributing guide
-- Portable agent skill under `skills/workflow-builder/`
+- Portable agent skill under `skills/journeys/`
 
 ### Added (0.4 prep)
 
@@ -23,8 +23,21 @@ schema may still evolve.
 
 ### Planned
 
-- npm publish of `@journeys/core`
 - Import/export polish and launch prep
+
+## 0.1.0 (2026-07-04)
+
+First public npm release under the `@journeys` org.
+
+- Package: `@journeys/core@0.1.0`
+- Product branding: **Journeys** (formerly Workflow Builder in docs)
+- Agent skill: `skills/journeys/`
+
+Install:
+
+```bash
+pnpm add @journeys/core
+```
 
 ## Version targets
 

@@ -189,7 +189,7 @@ merge point. That file is the contract for nearly every other stream.
 Use this prompt for the next implementation agent:
 
 ```text
-You are implementing the Workflow Builder repository. Read README.md, all docs/
+You are implementing the Journeys repository. Read README.md, all docs/
 files, and the PRPs/ files before coding. Implement PRPs in numeric order. Keep
 the core package framework agnostic. Do not invent a DSL or use eval. The JSON
 schema in docs/02-workflow-json-schema.md is the source of truth. After each PRP,

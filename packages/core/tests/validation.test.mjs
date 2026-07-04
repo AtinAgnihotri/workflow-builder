@@ -14,7 +14,7 @@ import { basicWorkflow, linearWorkflow } from "./fixtures.mjs";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const exampleWorkflowPath = join(
   __dirname,
-  "../../../skills/workflow-builder/examples/basic-workflow.json"
+  "../../../skills/journeys/examples/basic-workflow.json"
 );
 
 test("validateWorkflow accepts docs example workflow", () => {

@@ -1,12 +1,12 @@
 # Cursor Notes
 
-Point Cursor at `skills/workflow-builder/SKILL.md` as project context or paste it
-into the agent instructions for Workflow Builder tasks.
+Point Cursor at `skills/journeys/SKILL.md` as project context or paste it
+into the agent instructions for Journeys tasks.
 
 Recommended Cursor prompt:
 
 ```text
-Use the Workflow Builder skill from skills/workflow-builder/SKILL.md. Inspect the
+Use the Journeys skill from skills/journeys/SKILL.md. Inspect the
 local code before editing. Preserve schemaVersion "1.0", use @journeys/core
 when available, validate changed workflow JSON, and do not invent an expression
 DSL.

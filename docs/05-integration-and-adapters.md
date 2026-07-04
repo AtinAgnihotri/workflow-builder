@@ -32,7 +32,7 @@ const result = evaluateNext(workflow, { currentNodeId, context });
 applyWorkflowResult(result);
 ```
 
-If the app wants Workflow Builder to track position and history, use the runtime
+If the app wants Journeys to track position and history, use the runtime
 state helpers:
 
 ```ts

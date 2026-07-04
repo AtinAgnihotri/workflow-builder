@@ -3,7 +3,7 @@
 ## Goal
 
 Build a local, browser-based visual builder that can create, validate, preview,
-import, and export Workflow Builder JSON.
+import, and export Journeys JSON.
 
 ## Context To Read First
 

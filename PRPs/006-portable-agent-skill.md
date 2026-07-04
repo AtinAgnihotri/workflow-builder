@@ -1,9 +1,8 @@
-# PRP 006: Portable Workflow Builder Agent Skill
+# PRP 006: Portable Journeys Agent Skill
 
 ## Goal
 
-Create a portable agent skill that teaches coding agents how to use Workflow
-Builder safely and idiomatically.
+Create a portable agent skill that teaches coding agents how to use Journeys safely and idiomatically.
 
 This skill should be useful in Cursor, OpenCode, Claude Code, Codex, T3Code, and
 other harnesses that can pull in Markdown instructions.
@@ -30,14 +29,14 @@ The lead agent must review `SKILL.md` for schema correctness before completion.
 ## Files To Create
 
 ```text
-skills/workflow-builder/SKILL.md
-skills/workflow-builder/examples/basic-workflow.json
-skills/workflow-builder/examples/basic-usage.ts
-skills/workflow-builder/examples/react-usage.tsx
-skills/workflow-builder/harnesses/cursor.md
-skills/workflow-builder/harnesses/claude-code.md
-skills/workflow-builder/harnesses/codex.md
-skills/workflow-builder/harnesses/opencode.md
+skills/journeys/SKILL.md
+skills/journeys/examples/basic-workflow.json
+skills/journeys/examples/basic-usage.ts
+skills/journeys/examples/react-usage.tsx
+skills/journeys/harnesses/cursor.md
+skills/journeys/harnesses/claude-code.md
+skills/journeys/harnesses/codex.md
+skills/journeys/harnesses/opencode.md
 ```
 
 ## SKILL.md Required Sections

@@ -1,6 +1,6 @@
-# Workflow Builder Docs
+# Journeys Docs
 
-Workflow Builder is a framework-agnostic TypeScript toolkit for creating and
+Journeys is a framework-agnostic TypeScript toolkit for creating and
 evaluating workflows represented as JSON adjacency lists.
 
 These docs are intentionally detailed because implementation will be delegated

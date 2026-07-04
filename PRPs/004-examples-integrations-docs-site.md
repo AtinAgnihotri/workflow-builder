@@ -3,7 +3,7 @@
 ## Goal
 
 Create runnable examples and publishable docs that explain how developers use
-Workflow Builder in real applications.
+Journeys in real applications.
 
 ## Context To Read First
 

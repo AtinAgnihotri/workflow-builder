@@ -1,6 +1,6 @@
-# Contributing to Workflow Builder
+# Contributing to Journeys
 
-Thank you for your interest in Workflow Builder. This project is
+Thank you for your interest in Journeys. This project is
 **maintainer-led**: the maintainer sets the roadmap, and issues and discussions
 collect feedback from the community.
 

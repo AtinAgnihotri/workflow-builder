@@ -110,7 +110,7 @@ Parallelizable:
 Use this prompt in Cursor or another harness with subagents:
 
 ```text
-You are the lead implementation agent for Workflow Builder.
+You are the lead implementation agent for Journeys.
 
 First, read README.md, docs/*.md, and PRPs/*.md. Keep docs/02-workflow-json-schema.md
 as the source of truth for schema semantics. Keep docs/08-agent-orchestration.md
@@ -133,7 +133,7 @@ dependencies in packages/core. Do not build adapters before examples.
 ## Subagent Prompt Template
 
 ```text
-You are a scoped subagent working on Workflow Builder.
+You are a scoped subagent working on Journeys.
 
 Read:
 - <specific doc files>

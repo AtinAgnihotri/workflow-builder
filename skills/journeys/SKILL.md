@@ -1,26 +1,26 @@
-# Workflow Builder Skill
+# Journeys Skill
 
 ## Purpose
 
 Use this skill when a coding agent needs to create, edit, validate, or integrate
-Workflow Builder workflows.
+Journeys workflows.
 
-Workflow Builder represents product-editable workflows as plain JSON adjacency
+Journeys represents product-editable workflows as plain JSON adjacency
 lists. The core package validates workflow definitions and deterministically
 evaluates the next node from a runtime context object.
 
-Supported Workflow Builder schema: `1.0`
+Supported Journeys schema: `1.0`
 
 ## When To Use
 
 Use this skill when the task mentions:
 
-- Workflow Builder
+- Journeys
 - workflow JSON
 - adjacency-list workflows
 - product-editable journeys
 - conditional routing or branching
-- visual workflow builder output
+- Journeys builder output
 - `@journeys/core`
 
 ## Mental Model
@@ -32,7 +32,7 @@ Developer-owned:
 - perform navigation, rendering, service calls, or other side effects
 - store or load workflow JSON
 
-Workflow Builder-owned:
+Journeys-owned:
 
 - JSON workflow schema
 - validation
@@ -220,7 +220,7 @@ paths like `loanApplications[0].lvr`.
 
 ## Integration Pattern
 
-Use Workflow Builder to choose the next node. Let the host app decide what that
+Use Journeys to choose the next node. Let the host app decide what that
 node means.
 
 ```ts
@@ -260,7 +260,7 @@ Do not:
 - add React, Vue, Svelte, Solid, router, or DOM dependencies to the core package
 - add npm packages casually; preserve the repo's dependency-minimal posture and
   1-day package age gate
-- make Workflow Builder own app routing or state
+- make Journeys own app routing or state
 - convert exported JSON into a graph-library-only shape
 - treat `field: "a.b.c"` as a nested lookup in schema `1.0`
 - silently coerce `"70"` to `70`

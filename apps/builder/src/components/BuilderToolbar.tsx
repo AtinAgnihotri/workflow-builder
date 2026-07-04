@@ -20,7 +20,7 @@ export function BuilderToolbar({ onImport, onExport, onCopy }: BuilderToolbarPro
 
   return (
     <header className="builder-toolbar">
-      <h1>Workflow Builder</h1>
+      <h1>Journeys</h1>
       <div className="field builder-toolbar__name">
         <label htmlFor="workflow-name">Workflow name</label>
         <input

@@ -6,7 +6,7 @@ Accepted
 
 ## Context
 
-Workflow Builder integrates with many host environments: vanilla TypeScript,
+Journeys integrates with many host environments: vanilla TypeScript,
 React, multiple routers, Next.js, edge workers, and assorted state libraries.
 Framework-specific adapter packages (`@journeys/react`, router wrappers,
 etc.) would multiply maintenance and peer-dependency surface area before real

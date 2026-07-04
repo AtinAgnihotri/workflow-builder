@@ -2,7 +2,7 @@
 
 ## Design posture
 
-Workflow Builder is designed **not** to execute arbitrary code:
+Journeys is designed **not** to execute arbitrary code:
 
 - Conditions are structured JSON trees (`field`, `operator`, `value`), not
   expression strings.

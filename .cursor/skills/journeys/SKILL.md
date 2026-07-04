@@ -1,13 +1,13 @@
 ---
-name: workflow-builder
+name: journeys
 description: >-
-  Loads Workflow Builder monorepo context for implementation, validation, and
+  Loads Journeys monorepo context for implementation, validation, and
   integration tasks. Use when working in this repository, implementing PRPs,
   editing @journeys/core, workflow JSON, the builder UI, or when the
-  user mentions Workflow Builder, adjacency-list workflows, or PRP checkpoints.
+  user mentions Journeys, adjacency-list workflows, or PRP checkpoints.
 ---
 
-# Workflow Builder (Repository Context)
+# Journeys (Repository Context)
 
 ## What This Repo Is
 
@@ -22,7 +22,7 @@ Read only what the task needs. Default order:
 1. [README.md](../../README.md) — navigation and current status
 2. [docs/index.md](../../docs/index.md) — doc reading order
 3. Relevant PRP under [PRPs/](../../PRPs/) for the active implementation step
-4. [skills/workflow-builder/SKILL.md](../../skills/workflow-builder/SKILL.md) — JSON schema, operators, integration patterns
+4. [skills/journeys/SKILL.md](../../skills/journeys/SKILL.md) — JSON schema, operators, integration patterns
 5. [docs/08-agent-orchestration.md](../../docs/08-agent-orchestration.md) — when using subagents
 
 ### By task type
@@ -33,7 +33,7 @@ Read only what the task needs. Default order:
 | Builder UI | `docs/04-builder-ui-spec.md`, PRP 003 |
 | Examples / adapters | `docs/05-integration-and-adapters.md`, PRP 004 |
 | Release / CI | `docs/06-docs-site-and-oss-strategy.md`, PRP 005 |
-| Editing workflow JSON | `skills/workflow-builder/SKILL.md`, `docs/02-workflow-json-schema.md` |
+| Editing workflow JSON | `skills/journeys/SKILL.md`, `docs/02-workflow-json-schema.md` |
 
 ## Monorepo Layout
 
@@ -75,7 +75,7 @@ PRP 001 = scaffold; PRP 002 = validator + evaluator; PRP 003 = builder UI; etc.
 
 ## Additional Resources
 
-- Workflow JSON and integration details: [skills/workflow-builder/SKILL.md](../../skills/workflow-builder/SKILL.md)
-- Example workflow: [skills/workflow-builder/examples/basic-workflow.json](../../skills/workflow-builder/examples/basic-workflow.json)
+- Workflow JSON and integration details: [skills/journeys/SKILL.md](../../skills/journeys/SKILL.md)
+- Example workflow: [skills/journeys/examples/basic-workflow.json](../../skills/journeys/examples/basic-workflow.json)
 - Architecture: [docs/01-architecture.md](../../docs/01-architecture.md)
 - Implementation roadmap: [docs/07-implementation-roadmap.md](../../docs/07-implementation-roadmap.md)

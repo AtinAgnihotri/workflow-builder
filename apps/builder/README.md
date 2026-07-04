@@ -1,6 +1,6 @@
-# Workflow Builder UI
+# Journeys UI
 
-Local browser-based visual editor for Workflow Builder JSON. The app imports
+Local browser-based visual editor for Journeys JSON. The app imports
 validation and evaluation from `@journeys/core` and does not duplicate
 schema logic.
 

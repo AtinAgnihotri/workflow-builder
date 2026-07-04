@@ -1,8 +1,8 @@
 {
-  "name": "workflow-builder",
+  "name": "journeys",
   "version": "0.0.0",
   "private": true,
-  "description": "Framework-agnostic workflow builder core and visual builder.",
+  "description": "Framework-agnostic journeys library and visual builder.",
   "license": "Apache-2.0",
   "type": "module",
   "packageManager": "pnpm@10.20.0",

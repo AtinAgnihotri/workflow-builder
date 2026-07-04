@@ -1,9 +1,15 @@
-# workflow-builder
+# Journeys
 
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
-Workflow Builder is a planned TypeScript library and builder UI for representing
+Journeys is a TypeScript library and visual builder for representing
 business-configurable workflows as plain JSON adjacency lists.
+
+Install the core package from npm:
+
+```bash
+pnpm add @journeys/core
+```
 
 The source prompt for the project lives in [main-prompt.md](main-prompt.md).
 This repository currently contains the detailed product, architecture, schema,
@@ -28,7 +34,7 @@ build the first version.
 - [Release notes](docs/release-notes.md)
 - [Agent orchestration plan](docs/08-agent-orchestration.md)
 - [Portable agent skill spec](docs/09-portable-agent-skill.md)
-- [Portable Workflow Builder skill](skills/workflow-builder/SKILL.md)
+- [Portable Journeys skill](skills/journeys/SKILL.md)
 
 ## PRPs
 
@@ -75,10 +81,10 @@ The initial public API should focus on:
 ## Agent Skill
 
 The repo includes a portable Markdown skill at
-[skills/workflow-builder/SKILL.md](skills/workflow-builder/SKILL.md). Agents in
+[skills/journeys/SKILL.md](skills/journeys/SKILL.md). Agents in
 Cursor, OpenCode, Claude Code, Codex, T3Code-style harnesses, and similar tools
-can ingest it to understand how to validate, edit, and integrate Workflow
-Builder JSON without inventing a DSL or taking over app routing/state.
+can ingest it to understand how to validate, edit, and integrate Journeys
+workflow JSON without inventing a DSL or taking over app routing/state.
 
 ## Validation
 

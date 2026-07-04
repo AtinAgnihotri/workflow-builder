@@ -16,14 +16,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Runnable examples: vanilla TypeScript, React local state, React Router,
   TanStack Router, Next.js client, edge runtime
 - Docs: quickstart, API reference, examples index, contributing guide, ADR 001
-- Portable agent skill under `skills/workflow-builder/`
+- Portable agent skill under `skills/journeys/`
 - Local `pnpm validate` script, governance docs, issue/PR templates, and
   release checklist
 
+## [0.1.0] - 2026-07-04
+
+### Added
+
+- First npm publish of `@journeys/core` under the `@journeys` org
+
+### Changed
+
+- Product and package branding: Workflow Builder → **Journeys**
+- Agent skill path: `skills/journeys/`
+
 ### Planned
 
-- npm publish of `@journeys/core` (manual first publish)
-- Changesets-based versioning once publishing begins
+- Changesets-based versioning for future releases
 
 ## Version history (targets)
 

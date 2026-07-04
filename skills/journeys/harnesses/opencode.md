@@ -1,12 +1,12 @@
 # OpenCode Notes
 
-Use `skills/workflow-builder/SKILL.md` as Markdown context for OpenCode agents
-working on Workflow Builder workflows or integrations.
+Use `skills/journeys/SKILL.md` as Markdown context for OpenCode agents
+working on Journeys workflows or integrations.
 
 Recommended prompt:
 
 ```text
-Use the Workflow Builder skill from skills/workflow-builder/SKILL.md. Preserve
+Use the Journeys skill from skills/journeys/SKILL.md. Preserve
 the JSON adjacency-list schema, validate workflow changes, and keep routing/state
 logic in the host app.
 ```
